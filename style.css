@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;800&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: 'Poppins';
+    background-image: url(images/c-d-x-PDX_a_82obo-unsplash.jpg);
+    background-position:top;
+    background: size 80%;
+    background-repeat: no-repeat;
+    opacity: 120%;
+}
+
+.container-fluid {
+    margin: 2em 4em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container-fluid a {
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 2em;
+    text-shadow: 1px 1px 2px rgb(35, 37, 39)
+}
+
+.btn-default {
+    background: black;
+    color: white;
+    border-radius: 3em;
+    padding: 10px 20px;
+    margin-right: 25px;
+}
+
+.container-main {
+    display: flex;
+    margin-top: 8em;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-main h1 {
+    font-size: 80px;
+    font-weight: 700;
+    color: black;
+    line-height: 75px;
+    text-align: center;
+    align-self: center;
+    width: 80%;
+    margin: 40px auto;
+    
+}
+
+.container-main a {
+    background: black;
+    color: white;
+    border-radius: 3em;
+    padding: 20px 40px;
+    text-decoration: none;
+    text-align: center;
+    width: fit-content;
+    margin-bottom: 4em;
+    transition-duration: 0.2s;
+    transition-property: all;
+}
+
+.container-main a:hover {
+    padding: 20px 35px;
+}
+
+.container-form {
+    display: flex;
+    margin: 20px auto;
+    border-radius: 4em;
+    justify-content: center;
+    background: black;
+    height: 750px;
+    width: 400px;
+}
+
+form {
+    margin: 1em;
+    justify-content: space-around;
+    padding: 1em 2em;
+    border: none;
+    border-radius: 3em;
+    outline: none;
+}
+
+.input-1 {
+    outline: none;
+    background: black;
+    border: 3px solid white;
+    color: white;
+    border-radius: 3em;
+    margin: 0.3em;
+    padding: 20px 40px;
+    text-align: left;
+}
+
+.btn-submit {
+    display: flex;
+    margin: 40px auto;
+    color: black;
+    background: white;
+    border-radius: 3em;
+    padding: 20px 40px;
+    font-weight: 700;
+    
+}
+
+.form-1 h1 {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 1em 2em;
+}
+
+@media only screen and (min-width: 1080px){
+    
+    .container-fluid {
+        width: 90%;
+    }
+
+    .container-fluid a {
+        margin-left: 3em;
+    }
+
+    .container-main {
+        align-items: left;
+        width: 45%;
+        padding: 0;
+    }
+
+    .container-main h1 {
+        text-align: left;
+        width: 5.5em;
+    }
+
+    .container-main a {
+        text-align: left;
+        margin-right: 3em;
+    }
+
+    .container-form {
+        display: flex;
+        flex-direction: column;
+        width: 45%;
+        margin: 0 8em;
+        
+    }
+
+    .input-1 {
+        display: flex;
+        margin: 5px 0;
+        width: 80%;
+        text-align: left;
+    }
+
+    .btn-submit {
+        margin: 0 50px;
+    }
+}
+    
